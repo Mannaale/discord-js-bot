@@ -2,6 +2,7 @@ require("dotenv").config();
 require("module-alias/register");
 require("@src/helpers/extenders");
 
+
 const path = require("path");
 const { validateConfig, checkForUpdates } = require("@utils/botUtils");
 const { initializeMongoose } = require("@src/database/mongoose");
